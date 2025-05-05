@@ -26,7 +26,6 @@ For this task, we implemented a deep **Encoder-Decoder ConvLSTM** network that m
 
 This network is particularly effective for spatiotemporal forecasting tasks such as predicting weather map evolution.
 
-> 🔍 See `Task1bConvLSTM` class in the code.
 
 ### Task 2: VIL Forecasting with Single ConvLSTM
 
@@ -38,8 +37,6 @@ Task 2 focuses on forecasting VIL (Vertically Integrated Liquid) over 36 time st
 - The model maintains hidden and cell states across all 36 time steps to learn long-term dependencies.
 
 This model provides an efficient and compact solution for temporal sequence regression in meteorological forecasting.
-
-> 🔍 See `ConvLSTMForecast` class in `models/task3_model.py`.
 
 ### Task 3: Probabilistic Forecasting with CNN
 
@@ -54,7 +51,6 @@ This model uses a standard **Convolutional Neural Network** to make probabilisti
 
 This setup allows the model to express uncertainty in its predictions, which is crucial for storm forecasting applications.
 
-> 🔍 See `ProbabilisticCNN_3` class in `models/task3_model.py`.
 
 ## 🚀 Quick Start
 

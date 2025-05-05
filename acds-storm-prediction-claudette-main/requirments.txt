@@ -1,0 +1,12 @@
+numpy
+h5py
+torch
+torchvision
+torchmetrics
+pytorch-lightning
+matplotlib
+opencv-python
+pyyaml
+matplotlib
+tqdm
+livelossplot

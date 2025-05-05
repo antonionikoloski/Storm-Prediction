@@ -28,6 +28,19 @@ This network is particularly effective for spatiotemporal forecasting tasks such
 
 > 🔍 See `Task1bConvLSTM` class in the code.
 
+### Task 2: VIL Forecasting with Single ConvLSTM
+
+Task 2 focuses on forecasting VIL (Vertically Integrated Liquid) over 36 time steps using a simplified **ConvLSTM-based forecasting model**.
+
+- A single `ConvLSTMCell` is used to process each time step in sequence, allowing temporal memory of storm progression.
+- Input: 3-channel meteorological data over time
+- Output: 1-channel VIL prediction for each frame
+- The model maintains hidden and cell states across all 36 time steps to learn long-term dependencies.
+
+This model provides an efficient and compact solution for temporal sequence regression in meteorological forecasting.
+
+> 🔍 See `ConvLSTMForecast` class in `models/task3_model.py`.
+
 ### Task 3: Probabilistic Forecasting with CNN
 
 This model uses a standard **Convolutional Neural Network** to make probabilistic predictions about storm intensity.
